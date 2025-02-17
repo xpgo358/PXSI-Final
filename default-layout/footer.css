@@ -1,0 +1,15 @@
+footer {
+    background-color: #000; /* Black background */
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff; /* White text for links */
+    margin: 0 15px; /* Spacing out the links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
