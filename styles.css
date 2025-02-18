@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Consolas', monospace; /* Set font to Consolas */
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    background-color: grey;
+    text;
+}
+
+/* Navbar styles */
+#navbar-placeholder {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Center navbar items */
+}
+
+#navbar {
+    display: flex;
+    justify-content: center; /* Center navbar items */
+}
+
+#navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer styles */
+#footer-placeholder {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Titlebar styles */
+.titlebar {
+    background: repeating-linear-gradient(
+        black,
+        black 5px,
+        green 10px,
+        grey 5px
+    );
+    color: white;
+    text-align: center;
+    font-size: 2.5em; /* Slightly bigger font size */
+    font-weight: bold; /* Make the font bold */
+    padding: 20px 0;
+}

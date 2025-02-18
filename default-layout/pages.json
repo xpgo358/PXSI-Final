@@ -2,7 +2,16 @@
     "pages": [
         {
             "title": "P1",
-            "link": "./pages/p1.html"
+            "link": "../pages/p1.html"
+        },
+        {
+            "title": "P2",
+            "link": "../pages/p2.html"
+        },
+        {
+            "title": "P3",
+            "link": "../pages/p3.html"
         }
+
     ]
 }
