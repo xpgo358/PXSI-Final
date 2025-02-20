@@ -40,6 +40,25 @@
                 document.getElementById('footer-placeholder').innerHTML = data;
                 console.log('Footer loaded'); // Debugging log
             });
+
+        // Function to load page content
+        function loadPageContent(url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content').innerHTML = data;
+                    console.log('Page content loaded'); // Debugging log
+                })
+                .catch(error => console.error('Error loading page content:', error));
+        }
+
+        // Event listener for dynamic page loading
+        document.addEventListener('click', function(event) {
+            if (event.target.tagName === 'A' && event.target.href.includes('pages/')) {
+                event.preventDefault();
+                loadPageContent(event.target.href);
+            }
+        });
     </script>
 </body>
 </html>
