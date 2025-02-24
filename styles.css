@@ -22,24 +22,56 @@ body {
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: center; /* Center navbar items */
+    justify-content: flex-start; /* Align navbar items to the left */
+    position: absolute; /* Position navbar absolutely */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure navbar is on top */
 }
 
 #navbar {
-    display: flex;
-    justify-content: center; /* Center navbar items */
+    display: none; /* Hide the navbar by default */
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    position: absolute; /* Position navbar absolutely */
+    top: 50px; /* Adjust top position to be below the menu icon */
 }
 
 #navbar a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    text-align: center;
+    text-align: left; /* Align text to the left */
 }
 
 #navbar a:hover {
     background-color: white;
     color: black;
+}
+
+/* Three-bar menu styles */
+#menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 14px 16px;
+    position: absolute; /* Position menu icon absolutely */
+    top: 0;
+    left: 0;
+    z-index: 1001; /* Ensure menu icon is on top */
+}
+
+#menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Show navbar when menu is clicked */
+#navbar.show {
+    display: flex;
 }
 
 /* Footer styles */

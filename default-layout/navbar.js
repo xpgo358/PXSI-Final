@@ -18,3 +18,9 @@ fetch('./default-layout/pages.json')
         });
     })
     .catch(error => console.error('Error fetching the JSON data:', error));
+
+// Toggle navbar visibility
+document.getElementById('menu-icon').addEventListener('click', function() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('show');
+});
