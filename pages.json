@@ -1,0 +1,42 @@
+[
+      {
+        "name": "Algorithmic",
+        "url": "./pages/algorithmic.html"
+    },
+    {
+        "name": "Back-End Boost",
+        "url": "./pages/back-end_boost.html"
+    },
+    {
+        "name": "Bug Free",
+        "url": "./pages/bug_free.html"
+    },
+    {
+        "name": "Dark Mode",
+        "url": "./pages/dark_mode.html"
+    },
+    {
+        "name": "Firewall",
+        "url": "./pages/firewall.html"
+    },
+    {
+        "name": "Full Stack",
+        "url": "./pages/full_stack.html"
+    },
+    {
+        "name": "Hacker Fuel",
+        "url": "pages/hacker_fuel.html"
+    },
+    {
+        "name": "Kernel Boost",
+        "url": "pages/kernel_boost.html"
+    },
+    {
+        "name": "Stack Overflow",
+        "url": "pages/stack_overflow.html"
+    },
+    {
+        "name": "Syntax Error",
+        "url": "pages/syntax_error.html"
+    }
+]
