@@ -16,6 +16,13 @@ fetch('./default-layout/pages.json')
             navbar.appendChild(link);
             console.log('Created link:', link); // Debugging log
         });
+
+        // Add event listener to hide navbar when a link is clicked
+        navbar.addEventListener('click', function(event) {
+            if (event.target.tagName === 'A') {
+                navbar.classList.remove('show');
+            }
+        });
     })
     .catch(error => console.error('Error fetching the JSON data:', error));
 

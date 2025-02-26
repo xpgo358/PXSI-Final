@@ -2,43 +2,43 @@
     "pages": [
         {
             "title": "Kernel Boost Omelette",
-            "link": "../pages/p1.html"
+            "link": "../pages/kernel_boost.html"
         },
         {
             "title": "Stack Overflow Pasta with Tuna Sauce",
-            "link": "../pages/p2.html"
+            "link": "../pages/stack_overflow.html"
         },
         {
-            "title": "Full Srack with Chicken and Avocado",
-            "link": "../pages/p3.html"
+            "title": "Full Stack with Chicken and Avocado",
+            "link": "../pages/full_stack.html"
         },
         {
             "title": "Syntax Error Rice with Veggies and Chicken",
-            "link": "../pages/p4.html"
+            "link": "../pages/syntax_error.html"
         },
         {
             "title": "Hacker Fuel Bowl with Salmon and Avocado",
-            "link": "../pages/p5.html"
+            "link": "../pages/hacker_fuel.html"
         },
         {
             "title": "Back-End Boost Falafel and Yogurt Wrap",
-            "link": "../pages/p6.html"
+            "link": "../pages/back-end_boost.html"
         },
         {
             "title": "Algorithmic Carbonara Pasta",
-            "link": "../pages/p7.html"
+            "link": "../pages/algorithmic.html"
         },
         {
             "title": "Bug-Free Grilled Cheese and Egg Sandwich",
-            "link": "../pages/p8.html"
+            "link": "../pages/bug_free.html"
         },
         {
             "title": "Dark Mode Lentil Curry Soup",
-            "link": "../pages/p9.html"
+            "link": "../pages/dark_mode.html"
         },
         {
             "title": "Firewall Spicy Avocado Toast",
-            "link": "../pages/p10.html"
+            "link": "../pages/firewall.html"
         }
     ]
 }

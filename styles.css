@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: grey;
     font-family: 'Consolas', monospace; /* Set font to Consolas */
 }
 
@@ -11,10 +12,10 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
     justify-content: center; /* Center content vertically */
+    margin: 0 5% ;
     background-color: grey;
-    color: yellowgreen;
+    color: white;
 }
 
 /* Navbar styles */
@@ -92,7 +93,7 @@ body {
 }
 
 #footer a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
