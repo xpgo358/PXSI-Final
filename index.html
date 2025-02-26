@@ -3,64 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final web</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="titlebar" href="">Hackers recipes</div>
-    <!-- Navigation Bar Placeholder -->
-    <div id="navbar-placeholder"></div>
-
-    <!-- Main Content -->
-    <div id="content">
-        <h1>Welcome to the hackers paradise</h1>
-        <sub>This website is designed to give you fast recipes to keep with your coding strike</sub>
-        <p>We both know that coding is a mental state on which you don't know what time is it, so we made recipes for you that are easy and fast to keep you coding the most time possible</p>
-    </div>
-
-    <!-- Footer Placeholder -->
-    <div id="footer-placeholder"></div>
-
-    <script>
-        // Load navbar
-        fetch('./default-layout/navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar-placeholder').innerHTML = data;
-                console.log('Navbar loaded'); // Debugging log
-
-                // Execute the script from navbar.html
-                const script = document.createElement('script');
-                script.src = './default-layout/navbar.js';
-                document.body.appendChild(script);
-            });
-
-        // Load footer
-        fetch('./default-layout/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-                console.log('Footer loaded'); // Debugging log
-            });
-
-        // Function to load page content
-        function loadPageContent(url) {
-            fetch(url)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('content').innerHTML = data;
-                    console.log('Page content loaded'); // Debugging log
-                })
-                .catch(error => console.error('Error loading page content:', error));
-        }
-
-        // Event listener for dynamic page loading
-        document.addEventListener('click', function(event) {
-            if (event.target.tagName === 'A' && event.target.href.includes('pages/')) {
-                event.preventDefault();
-                loadPageContent(event.target.href);
-            }
-        });
-    </script>
+    
 </body>
 </html>
