@@ -33,12 +33,17 @@ html, body {
     text-decoration: none;
 }
 
-/* Main content styles */
-.content {
+/* Inpage styles */
+.inpage {
     flex: 1 1 auto;
     display: flex;
     padding: 0;
     overflow: hidden;
+}
+/* Content styles */
+#content {
+    padding: 0 1rem; /* Added padding on both sides */
+    text-align: justify;
 }
 
 /* Navigation bar styles */
