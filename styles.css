@@ -39,7 +39,7 @@ html, body {
     display: flex;
     flex-direction: column; /* Make content vertical */
     padding: 0 1rem; /* Added padding on both sides */
-    overflow: hidden;
+    overflow-y: auto; /* Enable vertical scrolling */
     text-align: justify;
     align-items: center;
 }
@@ -49,6 +49,29 @@ html, body {
     font-style: italic;
     margin: 1rem 0;
     color: #00cc00;
+}
+
+.content ul {
+    list-style-type: none;
+
+}
+
+.content li {
+    margin: 0.5rem 0;
+}
+
+.content a {
+    color: #00cc00;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: lightgrey;
+}
+
+.content img {
+    max-width: 75%;
+    height: auto;
 }
 
 /* Navigation bar styles */
@@ -84,9 +107,7 @@ html, body {
 /* Footer styles */
 .footer {
     flex: 0 1 auto;
-    position: fixed;
     width: 100%;
-    bottom: 0;
     text-align: center;
     padding: 1rem 0;
     background-color: black;
